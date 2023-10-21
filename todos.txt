@@ -2,3 +2,5 @@ buy grocery
 buy snacks
 go to school
 read books
+clean the bags
+Fix laptop
