@@ -12,8 +12,7 @@ def add_todo():
 
 
 st.title("My Todo")
-# st.subheader("This is my to-do app")
-# st.write("To increase productivity")
+
 st.header('Add a Todo', divider= 'grey')
 st.text_input(label="Todo input box", label_visibility= 'hidden', placeholder='Add a new todo..', on_change= add_todo, key='new_todo')
 

@@ -24,7 +24,6 @@ def get_done_todos():
     with open('dones.txt', 'r') as file_local:
         
         done_todos_local = file_local.readlines()
-        # top5 = done_todos_local[:5]
     return done_todos_local
 
 if __name__ == "__main__":
