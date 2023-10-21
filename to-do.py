@@ -23,7 +23,7 @@ for index, todo in enumerate(todos):
         function.complete_todos(dones=todo)
         todos.pop(index)
         function.write_todos(todos)
-        # del st.session_state[todo]
+        del st.session_state[todo]
         st.rerun()
         
 st.header('Last 5 completed todos', divider= 'grey')
